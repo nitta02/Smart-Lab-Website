@@ -1,0 +1,68 @@
+/* events.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #222;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.header-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header-description {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.event-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.event-item {
+    width: 300px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.event-item-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.event-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.event-item-description {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+}

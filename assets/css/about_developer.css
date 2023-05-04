@@ -1,0 +1,148 @@
+/* Reset default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Header styles */
+header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #ddd;
+    margin-bottom: 40px;
+}
+
+/* Section styles */
+.section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* Developers section styles */
+.developers-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+.developers-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.developer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.developer-photo {
+    width: 100%;
+    max-height:
+        200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.developer-name {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.developer-role {
+    font-size: 18px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.developer-description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.social-links {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #777;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
