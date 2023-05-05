@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Competition Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compitition_form.css">
+</head>
+
+<body>
+    <header>
+        <h1>Competition Form</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Competition Details</legend>
+            <div class="form-group">
+                <label for="comp-name">Competition Name:</label>
+                <input type="text" id="comp-name" name="comp-name" required>
+            </div>
+            <div class="form-group">
+                <label for="comp-date">Competition Date:</label>
+                <input type="date" id="comp-date" name="comp-date" required>
+            </div>
+            <div class="form-group">
+                <label for="comp-location">Competition Location:</label>
+                <input type="text" id="comp-location" name="comp-location" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Terms and Conditions</legend>
+            <div class="form-group">
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I agree to the terms and conditions</label>
+            </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
