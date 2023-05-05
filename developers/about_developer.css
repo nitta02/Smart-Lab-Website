@@ -41,9 +41,9 @@ nav a {
 
 /* Header styles */
 header {
-    background-image: url('header-bg.jpg');
-    background-size: cover;
-    height: 400px;
+    background-image: url('../assets/img/aboutdev1.png');
+    background-size: auto;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
