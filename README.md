@@ -1,36 +1,29 @@
-# DIU Robotics Lab
+# Smart Lab Website
 
 ## Project Overview
-The DIU Robotics Lab website is a platform to showcase the lab's activities, competitions, team members, and events. It is designed to provide students and visitors with up-to-date information about robotics competitions and the ongoing research in the lab. The site includes sections for team members, competitions, registration, and lab-related resources.
-
-## Preview
-![Website Preview](assets/img/robotics%20lab.png)
-
-*Medium-sized preview of the DIU Robotics Lab website.*
+The Smart Lab website is an interactive platform designed to provide information about the lab's innovative technologies, ongoing research, and smart solutions in various fields like IoT, AI, and automation. It also serves as a hub for showcasing lab projects, team members, and providing registration for events or lab tours.
 
 ## Features
-- **About Section**: Details about the DIU Robotics Lab, its mission, and its activities.
-- **Competitions**: Provides information on upcoming and past robotics competitions.
-- **Registration**: Users can register for competitions or events through the registration form.
-- **Developers Section**: Showcasing the team of developers working on the website.
-- **Teacher Profiles**: Highlighting the mentors and instructors guiding the robotics lab.
+- **About Section**: Introduction to the Smart Lab, its mission, vision, and the cutting-edge technologies being developed.
+- **Projects Section**: Detailed descriptions of ongoing and completed projects in AI, IoT, and robotics.
+- **Team Members**: Profiles of researchers, developers, and lab personnel.
+- **Registration**: Users can sign up for lab tours, events, or workshops.
+- **News & Events**: Stay updated on upcoming events, workshops, and seminars hosted by the Smart Lab.
   
 ## Technologies Used
-- **HTML**: For building the structure and content of the website.
-- **CSS**: To style the website and ensure it has a professional look.
-- **JavaScript**: For added interactivity and functionality (if applicable).
-- **PHP**: Used for handling the backend registration process (if applicable).
-
+- **HTML**: For structuring the content of the website.
+- **CSS**: To ensure a clean, modern design and responsive layout.
+- **JavaScript**: To add interactivity and dynamic elements to the website.
+  
 ## Project Structure
 ```bash
-diu-robotics-lab/
+smart-lab-website/
 │
-├── about/               # About the DIU Robotics Lab
-├── assets/              # Images and other assets used in the site
-├── competition/         # Details of competitions hosted by the lab
-├── competition_form/    # Forms for competition registration
-├── developers/          # Information about the development team
-├── html/                # Core HTML files
-├── registration/        # Handles event registration details
-├── teachers/            # Profiles of teachers and mentors
-└── index.html           # Main landing page
+├── assets/              # Images, icons, and other media assets
+├── css/                 # CSS stylesheets for the website
+├── js/                  # JavaScript files for interactive features
+├── projects/            # Section detailing lab projects and research
+├── registration/        # Forms for event and workshop registration
+├── team/                # Information on team members and lab staff
+├── events/              # News and upcoming events hosted by the lab
+└── index.html           # Main landing page of the website
