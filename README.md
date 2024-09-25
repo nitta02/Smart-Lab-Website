@@ -4,7 +4,7 @@
 The DIU Robotics Lab website is a platform to showcase the lab's activities, competitions, team members, and events. It is designed to provide students and visitors with up-to-date information about robotics competitions and the ongoing research in the lab. The site includes sections for team members, competitions, registration, and lab-related resources.
 
 ## Preview
-![Website Preview](assets/img/robotics%20lab.png.png)
+![Website Preview](assets/img/robotics%20lab.png)
 
 *Medium-sized preview of the DIU Robotics Lab website.*
 
